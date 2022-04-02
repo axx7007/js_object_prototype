@@ -362,5 +362,9 @@
 
 let person = {
     name: "Xojiakbar",
-    
+    surname: "Abduvaxobov",
+    getFullName(){
+        return this.name + " " + this.surname
+    }
 }
+console.log(person.getFullName())
